@@ -8,7 +8,6 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { HttpClientModule } from '@angular/common/http';
@@ -23,7 +22,6 @@ import { MatSortModule } from '@angular/material/sort';
     AppRoutingModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule,
     MatTableModule,
     MatPaginatorModule,
     HttpClientModule,

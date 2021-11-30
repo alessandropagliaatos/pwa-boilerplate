@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1637938174571,
+  "timestamp": 1638268336146,
   "index": "/pwa-boilerplate/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/pwa-boilerplate/favicon.ico",
         "/pwa-boilerplate/index.html",
-        "/pwa-boilerplate/main.19ad9e50910bb41a.js",
+        "/pwa-boilerplate/main.54d4e1ffead4d7fb.js",
         "/pwa-boilerplate/manifest.webmanifest",
         "/pwa-boilerplate/polyfills.454fdcf7ba02a661.js",
         "/pwa-boilerplate/runtime.c58103ab31156814.js",
-        "/pwa-boilerplate/styles.ef46db3751d8e999.css"
+        "/pwa-boilerplate/styles.04c0cc8d7f6a8c14.css"
       ],
       "patterns": []
     },
@@ -41,7 +41,21 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [
+        "https:\\/\\/random-data-api\\.com\\/api\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 10000,
+      "maxAge": 259200000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/pwa-boilerplate/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/pwa-boilerplate/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -52,12 +66,12 @@
     "/pwa-boilerplate/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/pwa-boilerplate/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/pwa-boilerplate/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/pwa-boilerplate/index.html": "e463f4d991eefe5ca0eba06681613a95326cb3e1",
-    "/pwa-boilerplate/main.19ad9e50910bb41a.js": "db098767766e1b2e0802ad2dd699460c4df5d7a8",
+    "/pwa-boilerplate/index.html": "ecc569ee42aab6f81b9070e4583e539cbbdcf262",
+    "/pwa-boilerplate/main.54d4e1ffead4d7fb.js": "102670683da7b736af1c945fc32544fbef2fd24e",
     "/pwa-boilerplate/manifest.webmanifest": "93a67ec03f20dc2c1d92f93b2e2a4e3b7125ea31",
     "/pwa-boilerplate/polyfills.454fdcf7ba02a661.js": "8e75a221e16429eff81063daec002eb9e72be1e9",
     "/pwa-boilerplate/runtime.c58103ab31156814.js": "6c021e4a05e45fc9d1343b247f40cb619e5ba808",
-    "/pwa-boilerplate/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/pwa-boilerplate/styles.04c0cc8d7f6a8c14.css": "1a7e04f7e93de0115d50def5b12bced9cd96c3d2"
   },
   "navigationUrls": [
     {

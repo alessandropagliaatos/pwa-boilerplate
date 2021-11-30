@@ -26,5 +26,16 @@
         ]
       }
     }
-  ]
+  ],
+  "dataGroups": [{
+    "name": "api-performance",
+    "urls": [
+      "https://random-data-api.com/api/**"
+    ],
+    "cacheConfig": {
+      "maxSize": 10000,
+      "maxAge": "3d",
+      "strategy": "performance"
+    }
+  }]
 }
